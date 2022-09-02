@@ -1,0 +1,32 @@
+.btn-group {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:10px
+}
+
+.btn {
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.btn-light {
+    background-color: #8807ca;
+}
+.btn-light:hover {
+    background-color: #7203aa;
+}
+
+.btn-outline-light {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+}
+.btn-outline-light:hover {
+    background-color: #8807ca;
+    border: 1px solid #8807ca;
+}

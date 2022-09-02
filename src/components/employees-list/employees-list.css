@@ -1,0 +1,8 @@
+.app-list {
+    margin-top: 30px;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #404040;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
