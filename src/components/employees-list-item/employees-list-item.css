@@ -1,6 +1,6 @@
 .list-group-item {
     padding: 10px;
-    background-color: #8807ca;
+    background-color: #404040;
     border-radius: 25px;
     margin-top: 5px;
     color: #ffffff;
@@ -10,7 +10,7 @@
     cursor: pointer;
 }
 .list-group-item:hover {
-    background-color: #7203aa;
+    background-color: #6f6f6f;
 }
 
 .list-group-item:last-child {
@@ -21,7 +21,7 @@
     line-height: 35px;
     font-size: 20px;
     cursor: pointer;
-    min-width: 550px;
+    width: 100%;
     transition: 0.5s all;
 }
 
@@ -33,6 +33,16 @@
     background-color: rgba(255, 255, 255, 0);
     color: #ffffff;
     transition: 0.5s all;
+}
+
+@media(max-width:660px) {
+    .list-group-item input {
+        width: 90px;
+        font-size: 18px;
+    }
+    .list-group-item span {
+        font-size: 18px;
+    }
 }
 
 .list-group-item button {
@@ -65,6 +75,12 @@
     transform: translateX(15px);
     opacity: 0;
 }
+@media(max-width:660px) {
+    .list-group-item button, .list-group-item .fa-star {
+        width: 20px;
+        font-size: 15px;
+    }
+}
 
 .list-group-item.like .fa-star {
     opacity: 1;
@@ -72,7 +88,7 @@
 }
 
 .list-group-item.increase .list-group-item-label, .list-group-item.increase .list-group-item-input {
-    color: #fcdc39;
+    color: #ffe250;
 
 }
   
