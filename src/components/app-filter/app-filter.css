@@ -17,6 +17,8 @@
 }
 .btn-light {
     background-color: #8807ca;
+
+    transition: 0.3s all;
 }
 .btn-light:hover {
     background-color: #7203aa;
@@ -25,6 +27,7 @@
 .btn-outline-light {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #ffffff;
+    transition: 0.3s all;
 }
 .btn-outline-light:hover {
     background-color: #8807ca;
